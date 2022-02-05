@@ -110,3 +110,16 @@ nav ul a{
     display: flex;
     gap: 50px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 160px 400px;
+    margin-top: 50px;
+
+}
+
+.name {
+    text-align: end;
+    font-weight: bolder;
+}
