@@ -60,7 +60,7 @@ nav ul a{
     
 }
 
-.hero-left a {
+.button {
     display: inline-block;
     text-decoration: none;
     color: #F9FAF8;
@@ -100,6 +100,10 @@ nav ul a{
     width: 165px;
     height: 165px;
 }
+
+.information h2 {
+    font-size: 36px;
+}
 .information p {
     margin-top: 10px;
     width: 162px;
@@ -122,4 +126,33 @@ nav ul a{
 .name {
     text-align: end;
     font-weight: bolder;
+    margin-top: 30px;
+}
+
+.container {
+    background-color: #3882f6;
+    width: 60%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: #E5E7EB;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.container a {
+    border: 2px solid #E5E7EB;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 18px ;
 }
